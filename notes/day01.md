@@ -151,6 +151,10 @@ for (int i = 0; i < actualLength; i++) {
 你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。
 ```
 
+### 代码
+
+思路：双指针，右指针不为目标值，则交换到左指针，最后的目标可能为任意值。
+
 ```java
 public class remove27 {
 	public static void main(String[] args) {
